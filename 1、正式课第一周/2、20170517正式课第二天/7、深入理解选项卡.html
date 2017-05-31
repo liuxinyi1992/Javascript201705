@@ -76,12 +76,17 @@ function change(n) {
 //}
 
 for(var j =0;j<oLis.length;j++){
-    oLis[j].onclick = function(j){
-        // 当前的作用域不销毁，存储变量j;
-        return function () {
+    (function(j){
+        oLis[j].onclick =function () {
             change(j);
         };
-    }(j);
+    })(j)
+//    oLis[j].onclick = function(j){
+//        // 当前的作用域不销毁，存储变量j;
+//        return function () {
+//            change(j);
+//        };
+//    }(j);
 }
 
 
