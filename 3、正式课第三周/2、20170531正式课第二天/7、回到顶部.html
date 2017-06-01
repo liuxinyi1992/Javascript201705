@@ -37,8 +37,8 @@
     var timer = null;
     oDiv.onclick = function () {
         var distance = win("scrollTop");
-        var duration = 1000;
-        var  interval = 10;
+        var duration = 500;
+        var  interval = 10;// 时间因子
         var step = distance/duration*interval;
         timer=setInterval(function () {
             var curT = win("scrollTop");
