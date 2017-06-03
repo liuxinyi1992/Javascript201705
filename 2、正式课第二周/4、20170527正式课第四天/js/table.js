@@ -19,24 +19,25 @@ var data = null;
 // 获取数据 ajax    async Javascript and xml
 
 // 1、 创建一个ajax的对象
-var xhr = new XMLHttpRequest();
-//2、打开文件
-xhr.open("get","./data.txt",false);
-//3 、监听
-xhr.onreadystatechange = function () {
-    if(xhr.readyState == 4 && xhr.status == 200){
-        data =utils.toJSON(xhr.responseText);
-    }
-};
+// var xhr = new XMLHttpRequest();
+// //2、打开文件
+// xhr.open("get","./data.txt",false);
+// //3 、监听
+// xhr.onreadystatechange = function () {
+//     if(xhr.readyState == 4 && xhr.status == 200){
+//         data =utils.toJSON(xhr.responseText);
+//     }
+// };
+
 // 4、发送请求
-xhr.send();
-// [
-//     {"name":"武松","age":35,"hurt":105,"sex":1},
-//     {"name":"李逵","age":32,"hurt":125,"sex":1},
-//     {"name":"林冲","age":30,"hurt":149,"sex":1},
-//     {"name":"鲁智深","age":31,"hurt":120,"sex":1},
-//     {"name":"孙二娘","age":26,"hurt":110,"sex":0}
-// ]
+// xhr.send();
+var data=[
+    {"name":"武松","age":35,"hurt":105,"sex":1},
+    {"name":"李逵","age":32,"hurt":125,"sex":1},
+    {"name":"林冲","age":30,"hurt":149,"sex":1},
+    {"name":"鲁智深","age":31,"hurt":120,"sex":1},
+    {"name":"孙二娘","age":26,"hurt":110,"sex":0}
+];
 function bindData(){
     var frg = document.createDocumentFragment();
     for(var i=0;i<data.length;i++){
@@ -70,6 +71,12 @@ function changeBg() {
 changeBg();
 // 通过点击列的索引进行排序
 function sortList(index) {
+    var _this = this;
+    for(var j =0;j<oThs.length;j++){
+        j!==index ?oThs[j].flag =-1:null;
+    };
+    // debugger
+    _this.flag *=-1;
     var ary = utils.toArray(rows);
     ary.sort(function (a,b) {
         var aContent = a.cells[index].innerHTML;
@@ -77,26 +84,28 @@ function sortList(index) {
          if(index !==0){
              var cur = parseFloat(aContent);
              var nexCur = parseFloat(bContent);
-             return cur -nexCur;
+             return (cur -nexCur)*_this.flag;
          }else{
-             return aContent.localeCompare(bContent);
+             return (aContent.localeCompare(bContent))*_this.flag;
          }
     });
-    if(this.flag == "asc"){
-        ary.reverse();
-        this.flag = "desc"
-    }else{
-        this.flag = "asc";
-    };
+    // if(this.flag == "asc"){
+    //     ary.reverse();
+    //     this.flag = "desc"
+    // }else{
+    //     this.flag = "asc";
+    // };
     // console.log(ary)
     for(var i=0;i<ary.length;i++){
         tBody.appendChild(ary[i])
     }
     changeBg();
 }
+// debugger
 // 给表头绑定点击排序事件
 for(var i=0;i<oThs.length;i++){
     oThs[i].index = i;
+    oThs[i].flag= -1;
     if(oThs[i].className == "cursor"){
         oThs[i].onclick = function () {
             sortList.call(this,this.index);

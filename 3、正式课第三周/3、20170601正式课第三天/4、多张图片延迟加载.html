@@ -104,6 +104,9 @@
     }
     function delayImgCode(i) {// 形参
         var curImg = imgList[i];
+        curImg.index = 1
+        curImg.style.background ="red";
+        console.log(curImg)
         if(curImg.Load){
             return;
         }
@@ -111,6 +114,8 @@
         var curH = curImg.offsetHeight; // 当前图片的高度
         var scrTop = utils.win("scrollTop");
         var trueAddress = curImg.getAttribute("trueImg");
+        var color = curImg.getAttribute("style")
+
         if(winH + scrTop>=curT + curH){// 可视窗口的下边框和图片的下边框
             var oImg = document.createElement("img");
             oImg.src = trueAddress;

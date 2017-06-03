@@ -17,7 +17,7 @@ var utils= {
         var l = curEle.offsetLeft;
         var t = curEle.offsetTop;
         var p = curEle.offsetParent;
-        while (p.tagName.toLowerCase() !== "body"){
+        while (p){
             if(navigator.userAgent.indexOf("MSIE 8.0") === -1){
                 l+= p.clientLeft;
                 t+= p.clientTop;
