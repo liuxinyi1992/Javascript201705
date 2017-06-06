@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        .tt{
+            width :100px;
+            height:100px;
+            background: orangered;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="tt"></div>
+<div class="tt yy"></div>
+<div class="tt ww"></div>
+<script src="3、DOM.js"></script>
+<script type="text/javascript">
+    var tt = document.getElementsByClassName("tt")[0];
+    //utils.addClass(tt,"tt")
+    //console.log(utils.getCss(tt,"width"))
+    //utils.setCss(tt,"width",200)
+    console.log(utils.nextSiblings(tt))
+    function setGroupCss(curEle,options) {
+        if(typeof options!== "object"){
+            return
+        }
+        for(var attr in options){
+            if(options.hasOwnProperty(attr)){
+                utils.setCss(curEle,attr,options[attr])
+            }
+        }
+    };
+    setGroupCss(tt,{width :200,height:150})
+    function css() {
+        var len = arguments.length,
+            curEle = arguments[0],
+            attr = null,
+            value = null,
+            options = null;
+        if(len === 3){
+            attr = arguments[1];
+            value = arguments[2];
+            utils.setCss(curEle,attr,value)
+            return;
+        }
+        if(len == 2&& typeof arguments[1] === "object"){
+            options = arguments[1];
+            setGroupCss(curEle,options);
+            return;
+        }
+        attr =arguments[1];
+        return utils.getCss(curEle,attr);
+    }
+    css(tt,{opacity : 0.5,background:"orange"})
+</script>
+</body>
+</html>

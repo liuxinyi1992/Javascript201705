@@ -45,6 +45,7 @@
         if(curT+winH > oTabOfT+oTabH){
             // getAttribute  获取当前元素的属性值
             // 避免的当前图片地址已经发生修改，或者被覆盖，如果被修改，加载出来是一个小碎图，控制台报404
+//            var imgNew = new Image;
             var imgNew = document.createElement("img");
             imgNew.src= tureAddress;
             // 如果imgNew 加载成功，才会执行onload方法
@@ -53,6 +54,7 @@
                 fadeIn(img);
                 img.Load = true;
             }
+            imgNew =null;
         }
     }
     //渐变的效果
@@ -60,8 +62,10 @@
         var opa = 0.3;
         utils.setCss(curEle,"opacity",opa);
         var timer=setInterval(function () {
-            if(opa==1){
+            if(opa>=1){
+                utils.setCss(curEle,"opacity",1);
                 clearInterval(timer)
+                return;
             };
             opa+=0.1;
             utils.setCss(curEle,"opacity",opa);

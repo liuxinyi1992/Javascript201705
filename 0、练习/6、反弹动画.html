@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding :0;
+        }
+        #box{
+            width :100px;
+            height:100px;
+            position: absolute;
+            background: red;
+        }
+        input{
+            display: block;
+            width :100px;
+            height :50px;
+            top:200px;
+            position: absolute;
+        }
+        #leftInput{
+            left :100px;
+        }
+        #rightInput{
+            left :200px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<input type="button" value="向左走" id="leftInput">
+<input type="button" value="向右走" id="rightInput">
+<script type="text/javascript" src="3、DOM.js"></script>
+<script type="text/javascript">
+    var oBox = document.getElementById("box");
+    var oLeft = document.getElementById("leftInput");
+    var oRight = document.getElementById("rightInput");
+
+    var targetLeft = 0;
+    var targetRight = (document.documentElement.clientWidth || document.body.clientWidth)-oBox.offsetWidth;
+//    function Linear(t,b,c,d) {
+//        return t/d*c +b;
+//    }
+    function move(target) {
+        clearInterval(oBox.timer)
+        var curL = utils.getCss(oBox,"left");
+        oBox.timer = setInterval(function () {
+            if(curL >target){
+                curL-=10;
+                if(curL< target){
+                    oBox.style.left = target+"px";
+                    clearInterval(oBox.timer)
+                }
+            }else if(curL<target){
+                curL+=10
+                if(curL>target){
+                    oBox.style.left = target+"px";
+                    clearInterval(oBox.timer);
+                    return;
+                }
+            }
+            oBox.style.left = curL+"px";
+        },10)
+    }
+    oLeft.onclick = function(){
+        move(targetLeft)
+    }
+    oRight.onclick = function(){
+        move(targetRight)
+    }
+
+
+
+</script>
+</body>
+</html>
