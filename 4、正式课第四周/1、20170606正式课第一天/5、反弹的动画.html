@@ -47,6 +47,7 @@
      var winW = document.documentElement.clientWidth || document.body.clientWidth
      var targetRight = winW - oBox.offsetWidth;
      var targetLeft = 0;
+     var timer = null;
 //var obj={name:19}
 //console.log(obj.name)
      function move(target) {
@@ -54,7 +55,7 @@
          var curL = utils.getCss(oBox,"left");
 
          var timer//0<=curL<=1180
-         oBox.timer =setInterval(function () {
+         timer =setInterval(function () {
             if(curL < target){
                 // 如果当前条件成立，那么点击的一定是oRight
                 if(curL +8>target){

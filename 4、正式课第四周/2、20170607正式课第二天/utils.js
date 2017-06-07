@@ -1,8 +1,10 @@
-var utils= {
-    toJSON  : function (str) {
+// 利用“闭包”思想，里面的私有变量不受外界的干扰
+//
+var utils  = function () {
+    function toJSON(str) {
         return "JSON" in window ?JSON.parse(str) : eval("("+str+")");
-    },
-    listToArray : function (likeAry) {
+    };
+    function listToArray(likeAry) {
         var ary = [];
         try{
             ary = Array.prototype.slice.call(likeAry)
@@ -12,8 +14,8 @@ var utils= {
             }
         }
         return ary;
-    },
-    offset : function offset(curEle) {
+    };
+     function offset(curEle) {
         var l = curEle.offsetLeft;
         var t = curEle.offsetTop;
         var p = curEle.offsetParent;
@@ -23,8 +25,8 @@ var utils= {
             p = p.offsetParent;
         }
         return {left :l,top:t};
-    },
-    getCss : function getCss(curEle,attr) {
+    };
+    function getCss(curEle,attr) {
         var val = null;
         var reg = null;
         if("getComputedStyle" in window){
@@ -44,10 +46,10 @@ var utils= {
         // val  : 颜色 数字 数字+单位
         //val = isNaN(parseFloat(val)) ? val : parseFloat(val);
         var reg1 = /^([+-]?(\d|[1-9]\d+)(\.\d+)?)(px|pt|rem|em)?$/;
-        val = reg1.test(val) ? parseFloat(val) : val;
+        val = reg1.test(val) ? parseFloat(val) : val;// parseFloat  去掉单位
         return val;
-    },
-    setCss : function setCss(curEle,attr,value) {
+    };
+    function setCss(curEle,attr,value) {
         if(attr === "opacity"){
             curEle.style["opacity"] = value;
             // 在IE下对透明度的设置
@@ -68,20 +70,50 @@ var utils= {
             }
         }
         curEle.style[attr] = value;
-    },
-    win : function win(attr,value) {
+    };
+    function setGroupCss(curEle,options) {
+        for(var attr in options){// 遍历对象中每一个属性
+            setCss(curEle,attr,options[attr])
+        }
+    };
+    // 建立在以上三个方法之上的getCss、setCss、setGroupCss
+    // css(curEle,"width","100px")
+    function css() {
+        var  len = arguments.length,
+            curEle = arguments[0],
+            attr = null,
+            value = null,
+            options = null;
+        if(len ===3){
+            attr = arguments[1];
+            value = arguments[2];
+            setCss(curEle,attr,value);
+            return;
+        }
+        if(len ===2 && typeof arguments[1] === "object"){
+            options = arguments[1];
+            setGroupCss(curEle,options)
+            return;
+        }
+        attr = arguments[1];
+        return getCss(curEle,attr);
+    };
+    function win(attr,value) {
         if(value === undefined){
             return document.documentElement[attr] || document.body[attr];
         };
         document.documentElement[attr] = value;
         document.body[attr] = value;
-    },
-    addClass :     function getByClass(cName,context) {
+    };
+    // 参数1：要查找的类名，参数2 ： 指的查找到上下文（范围）（没有指定，默认document）
+    function getByClass(cName,context) {
         context = context || document;
-        if(context.getElementsByClassName){
+        if(context.getElementsByClassName){// 在ＩE678 下不存在getElementsByClassName
             return context.getElementsByClassName(cName);
         };
         var ary= [];
+        // 把当前context下面所有的元素对象都获取到
+        var nodes = context.getElementsByTagName("*");
         for(var i=0;i<nodes.length;i++){
             var curNode = nodes[i];
             var curClass = curNode.className;//"first second"
@@ -91,23 +123,26 @@ var utils= {
             }
         }
         return ary;
-    },
-    hasClass :function hasClass(curEle,cName) {
+    };
+    // 参数1 ： 元素对象（某一个元素是否含有cName）参数2 ： 类名
+    // 如果有cName返回true,如果没有返回false；
+    function hasClass(curEle,cName) {
         var curEleClass = curEle.className;
         var reg = new RegExp("(^| +)"+cName+"( +|$)");
         return reg.test(curEleClass);
-    },
-    addClass : function addClass(curEle,cName) {
-        var reg  = new RegExp("^ +| +$","g");
-        cName = cName.replace(reg,"");
+    };
+    function addClass(curEle,cName) {
+        var reg  = new RegExp("^ +| +$","g");// 取掉收尾空格的正则
+        cName = cName.replace(reg,"");// 取空去替换首位空格
         var ary = cName.split(/ +/g);
         for(var i=0;i<ary.length;i++){
-            if(!utils.hasClass(curEle,ary[i])){
+            if(!hasClass(curEle,ary[i])){
                 curEle.className +=" " +ary[i];
             }
         };
-    },
-    removeClass :function removeClass(curEle,cName) {
+    };
+    // 删除类名
+    function removeClass(curEle,cName) {
         var  reg = new RegExp("^ +| +$","g");
         cName = cName.replace(reg,"");
         var ary = cName.split(/ +/g)
@@ -118,8 +153,8 @@ var utils= {
                 curEle.className = curEle.className.replace(reg1," ")
             }
         }
-    },
-    getIndex :function getIndex(curEle) {
+    };
+    function getIndex(curEle) {
         var index = 0;
         var p = curEle.previousSibling;// 获取上一个哥哥节点
         while(p){
@@ -129,8 +164,8 @@ var utils= {
             p=p.previousSibling
         }
         return index;
-    },
-    siblings : function siblings(curEle) {
+    };
+    function siblings(curEle) {
         var nodes = curEle.parentNode.childNodes// 子节点
         var ary =[];
         for(var i=0;i<nodes.length;i++){
@@ -140,8 +175,8 @@ var utils= {
             }
         };
         return ary;
-    },
-    previousSiblings : function prevSiblings(curEle) {
+    };
+    function prevSiblings(curEle) {
         var ary =[];
         var p = curEle.previousSibling;
         while(p){
@@ -151,8 +186,8 @@ var utils= {
             p = p.previousSibling;
         }
         return ary;
-    },
-    nextSiblings :   function nextSiblings(curEle) {
+    };
+    function nextSiblings(curEle) {
         var ary = [];
         var n = curEle.nextSibling;
         while (n) {
@@ -162,8 +197,9 @@ var utils= {
             n = n.nextSibling;
         }
         return ary;
-    },
-    prev :function prev(curEle) {
+    };
+    // 参数：元素对象
+    function prev(curEle) {
         var pre;
         if(curEle.previousElementSibling){
             pre = curEle.previousElementSibling;
@@ -176,8 +212,8 @@ var utils= {
             }
             p = p.previousSibling;
         }
-    },
-    next : function next(curEle) {
+    };
+    function next(curEle) {
         var nex;
         if(curEle.nextElementSibling){
             nex = curEle.nextElementSibling;
@@ -190,8 +226,8 @@ var utils= {
             }
             n = n.nextSibling;
         }
-    },
-    children:function children(curEle) {
+    };
+    function children(curEle) {
         var children=curEle.children;
         if(typeof curEle.nextElementSibling !="object"){
             var ary = [];
@@ -205,5 +241,25 @@ var utils= {
         }
         return children;
     }
-}
-
+    return {
+        toJSON : toJSON,
+        listToArray : listToArray,
+        offset: offset,
+        getCss: getCss,
+        setCss : setCss,
+        setGroupCss : setGroupCss,
+        css : css,
+        win : win,
+        getByClass : getByClass,
+        hasClass: hasClass,
+        addClass : addClass,
+        removeClass : removeClass,
+        getIndex : getIndex,
+        siblings : siblings,
+        prevSiblings : prevSiblings,
+        nextSiblings:nextSiblings,
+        prev : prev,
+        next : next,
+        children : children
+    }
+}();

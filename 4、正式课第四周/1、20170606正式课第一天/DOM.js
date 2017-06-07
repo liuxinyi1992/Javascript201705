@@ -74,6 +74,8 @@ var utils= {
             utils.setCss(curEle,attr,options[attr])
         }
     },
+    // 建立在以上三个方法之上的getCss、setCss、setGroupCss
+    // css(curEle,"width","100px")
     css : function css() {
             var  len = arguments.length,
                 curEle = arguments[0],
