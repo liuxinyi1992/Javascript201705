@@ -27,7 +27,7 @@
     function Linear(t,b,c,d) {
         return t/d*c+b;
     };
-    function animate(curEle,target,duration) {
+    function animate(curEle,target,duration,callBack) {
         clearInterval(curEle.timer)
         // 遍历对象，获取当前元素对应属性的初始值
         var begin = {};// 存储属性对应的初始值
@@ -36,12 +36,14 @@
             begin[key] = utils.css(curEle,key);
             change[key] = target[key]- begin[key];
         }
+
         var time = null;
         curEle.timer=setInterval(function () {
             time+=10;
             if(time > duration){
                 utils.css(curEle,target);
                 clearInterval(curEle.timer);
+                typeof callBack === "function" ? callBack():null;
                 return;
             }
             for(var key in target){
@@ -55,7 +57,10 @@
     // animate 参数 1： 元素对象
     // 参数2 ： 目标位置
     // 参数3 ： 总时间；
-    animate(oBox,{left : 1000,top : 500,opacity :1,width : 0,height:0},2000);
+    animate(oBox,{left : 1000,top : 500,opacity :1,width : 0,height:0},2000,function () {
+        utils.css(oBox,"width",100);
+        utils.css(oBox,"height",100);
+    });
 </script>
 </body>
 </html>
