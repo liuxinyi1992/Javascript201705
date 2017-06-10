@@ -247,6 +247,7 @@
         var change = {}; // 存储元素执行动画 相应属性状态变化值
         for(var key in target) {
             // target  对象 目标位置
+            // 获取初始值，和相应属性名对应的变化值
             if(target.hasOwnProperty(key)) {
                 // begin {'left': 'left初始值'}
                 begin[key] = utils.css(curEle, key);// 获取属性初始值，在obj新增key属性，初始值赋值给begin的key的属性值
@@ -270,6 +271,7 @@
             // 计算出当前时间 元素相应属性 的状态
             // target 有多少个属性 zfEffect.Linear 执行多少次 并且把相应属性的参数传递进去 计算出 当前状态
             // 第一次的时候 key 是left  第二次的时候key 是 top
+            // 设置当前的最新的位置
             for(var key in target) {
                if(target.hasOwnProperty(key)) {
                    // 计算出 当前时间time 元素相应属性 所处状态

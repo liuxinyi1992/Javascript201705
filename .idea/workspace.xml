@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a3248d8-f8af-4c30-9f24-9290220e652f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/8、多方向动画的封装.html" afterPath="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/8、多方向动画的封装.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/animate.js" afterPath="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/utils.js" afterPath="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,61 +22,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="animate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/animate.js">
+      <file leaf-file-name="jQuery的选择器类型.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/jQuery的选择器类型.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3112">
-              <caret line="285" column="5" lean-forward="true" selection-start-line="285" selection-start-column="5" selection-end-line="285" selection-end-column="5" />
+            <state relative-caret-position="299">
+              <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/utils.js">
+      <file leaf-file-name="7、jQuery选择器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/7、jQuery选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/index.js">
+      <file leaf-file-name="8、jQuery中常用的方法.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/8、jQuery中常用的方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4、轮播图.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/4、轮播图.html">
+      <file leaf-file-name="6、jQuery 的原理.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/6、jQuery 的原理.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1546">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/animate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3、多方向动画回调.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/3、多方向动画回调.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+            <state relative-caret-position="144">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -98,6 +79,10 @@
       <find>utils</find>
       <find>previousSiblings</find>
       <find>easeInOut</find>
+      <find>Quad</find>
+      <find>noGlobal</find>
+      <find>addClass</find>
+      <find>jQuery.fn</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;desc&quot;</replace>
@@ -110,24 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3、正式课第三周/4、20170603正式课第四天/8、数据类型检测.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/4、20170603正式课第四天/1、复习正则.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/4、20170603正式课第四天/2、复习replace.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/4、20170603正式课第四天/4、处理浏览器兼容.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/4、20170603正式课第四天/5、回到顶部.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/4、20170603正式课第四天/3、复习盒子模型.html" />
-        <option value="$PROJECT_DIR$/0、练习/3-跑马灯效果.html" />
-        <option value="$PROJECT_DIR$/0、练习/2、DOM.js" />
-        <option value="$PROJECT_DIR$/0、练习/数据类型.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/5、20170604正式课第五天/1、DOM.js" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/3、20170601正式课第三天/3、单张图片延迟加载.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/3、20170601正式课第三天/4、多张图片延迟加载.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/5、20170604正式课第五天/1、getByClass.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/5、20170604正式课第五天/2、DOM.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/5、20170604正式课第五天/1、类名class增删查.html" />
-        <option value="$PROJECT_DIR$/0、练习/1、getByClass.html" />
-        <option value="$PROJECT_DIR$/3、正式课第三周/5、20170604正式课第五天/3、DOM.js" />
-        <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/3、DOM.js" />
         <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/1、复习DOM库.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/2、数据类型检测.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/3、可枚举和不可枚举属性.html" />
@@ -139,7 +106,6 @@
         <option value="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/5、回调函数.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/2、利用setTimeOut 实现动画.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/6、惰性载入函数.html" />
-        <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/DOM.js" />
         <option value="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/1、复习.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/5、反弹的动画.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/2、定时器.html" />
@@ -158,9 +124,28 @@
         <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/1、复习.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/8、多方向动画的封装.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/3、多方向动画回调.html" />
-        <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/animate.js" />
         <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/4、轮播图.html" />
         <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/index.js" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/2、轮播图2.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/3、jQuery基础.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/5、jQuery版本选项卡.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/6、jQuery案例-菜单.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/5、jQuery常用的方法.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/4、jQuery 选择器.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/DOM.js" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/utils.js" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/1、复习.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/animate.js" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/2、数据类型检测.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/3、动画和定时器.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/4、惰性载入函数.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/5、jQuery 基础.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/jquery-1.11.3.js" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/6、jQuery 的原理.html" />
+        <option value="$PROJECT_DIR$/00、练习1/5、jQuery常用的方法.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/jQuery的选择器类型.txt" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/7、jQuery选择器.html" />
+        <option value="$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/8、jQuery中常用的方法.html" />
       </list>
     </option>
   </component>
@@ -172,7 +157,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="1" />
-    <option name="width" value="1280" />
+    <option name="width" value="1370" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectView">
@@ -190,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,30 +188,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript201705" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javascript201705" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4、正式课第四周" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2017第五期/新建JS" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\珠峰培训\Javascript201705\0、练习" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\珠峰培训\Javascript201705\4、正式课第四周\4、20170610正式课第四天" />
+      <recent name="E:\珠峰培训\Javascript201705\00、练习1" />
       <recent name="E:\珠峰培训\Javascript201705\0、练习" />
-      <recent name="E:\珠峰培训\Javascript201705\4、正式课第四周\3、20170608正式课第三天\js" />
-      <recent name="E:\珠峰培训\Javascript201705\4、正式课第四周\3、20170608正式课第三天" />
       <recent name="E:\珠峰培训\Javascript201705" />
-      <recent name="E:\珠峰培训\Javascript201705\4、正式课第四周\2、20170607正式课第二天" />
+      <recent name="E:\珠峰培训\Javascript201705\4、正式课第四周\3、20170608正式课第三天\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\珠峰培训\Javascript201705\00、练习1" />
+      <recent name="E:\珠峰培训\Javascript201705\0、练习" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,18 +352,21 @@
       <workItem from="1496709635287" duration="3244000" />
       <workItem from="1496712945908" duration="26824000" />
       <workItem from="1496795833749" duration="30105000" />
-      <workItem from="1496882218973" duration="24121000" />
+      <workItem from="1496882218973" duration="25484000" />
+      <workItem from="1496972983749" duration="11190000" />
+      <workItem from="1497056111967" duration="12803000" />
+      <workItem from="1497077690180" duration="11279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479188000" />
+    <option name="totallyTimeSpent" value="515823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1" width="1280" height="726" extended-state="1" />
+    <frame x="0" y="1" width="1370" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16851266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1676514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -400,221 +403,104 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0、练习/2、指定时间实现单方向动画.html">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/2、this.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="482">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/多动画效果封装2.html">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/6、匀速动画2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="-574">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/6、反弹动画.html" />
-    <entry file="file://$PROJECT_DIR$/0、练习/4、指定时间实现单方向动画.html" />
-    <entry file="file://$PROJECT_DIR$/0、练习/5、回调函数.html">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/7、多方向运动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="335">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/2、利用setTimeOut 实现动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/3、匀速运动动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/6、惰性载入函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/1、复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/animate.js" />
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/DOM.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1044">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/5、反弹的动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/3、可枚举和不可枚举属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/1、复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/2、定时器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/4、递归思想实现动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/5、匀速动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/3、回调函数.html">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/8、多方向动画的封装.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/animate.js">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/3、多方向动画回调.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="2844">
+          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/多动画效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/4、实现多方向的运动动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/utils.js">
+    <entry file="file://$PROJECT_DIR$/0、练习/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/animate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/data.txt">
+    <entry file="file://$PROJECT_DIR$/0、练习/js轮播图/js/animate2.js" />
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/js/utils.js">
+    <entry file="file://$PROJECT_DIR$/0、练习/js轮播图/index.html" />
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/4、轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="1980">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/DOM.js">
+    <entry file="file://$PROJECT_DIR$/0、练习/__MACOSX/轮播图/js/._utils.js" />
+    <entry file="file://$PROJECT_DIR$/0、练习/js轮播图/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/images/default.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/images/default.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/images/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/images/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/1、复习.html">
+    <entry file="file://$PROJECT_DIR$/00、练习1/1、复习.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="252">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00、练习1/2、轮播图2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00、练习1/动画效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00、练习1/jquery-1.11.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -623,115 +509,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/6、惰性函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/js/animate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="263" column="47" lean-forward="true" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/0、练习/6、惰性函数.html" />
     <entry file="file://$PROJECT_DIR$/0、练习/1、轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/1、复习.html">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/1、复习DOM库.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/2、this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/6、匀速动画2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/7、多方向运动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/8、多方向动画的封装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/3、多方向动画回调.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/animate.js">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/2、数据类型检测.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/js轮播图/js/animate2.js">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/3、可枚举和不可枚举属性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="224" column="43" lean-forward="true" selection-start-line="224" selection-start-column="43" selection-end-line="224" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="533">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/4、简单的动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/3、回调函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00、练习1/img/pre.png" />
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/images/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/4、递归思想实现动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="81" lean-forward="true" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0、练习/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="96" column="19" lean-forward="true" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/2、20170607正式课第二天/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/2、数据类型检测.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/animate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3112">
-          <caret line="285" column="5" lean-forward="true" selection-start-line="285" selection-start-column="5" selection-end-line="285" selection-end-column="5" />
+        <state relative-caret-position="-397">
+          <caret line="240" column="25" lean-forward="false" selection-start-line="240" selection-start-column="25" selection-end-line="240" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/3、动画和定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0、练习/6、惰性载入函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/1、20170606正式课第一天/DOM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7272">
+          <caret line="202" column="48" lean-forward="true" selection-start-line="202" selection-start-column="48" selection-end-line="202" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/utils.js">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/1、复习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/4、惰性载入函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -739,42 +649,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/js轮播图/index.html">
+    <entry file="file://$PROJECT_DIR$/00、练习1/3、jQuery基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/4、轮播图.html">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/jquery-1.11.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1546">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="128988">
+          <caret line="3595" column="0" lean-forward="false" selection-start-line="3595" selection-start-column="0" selection-end-line="3595" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/__MACOSX/轮播图/js/._utils.js">
+    <entry file="file://$PROJECT_DIR$/00、练习1/6、jQuery案例-菜单.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0、练习/js轮播图/js/index.js">
+    <entry file="file://$PROJECT_DIR$/00、练习1/5、jQuery版本选项卡.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4、正式课第四周/3、20170608正式课第三天/js/index.js">
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/5、jQuery 基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00、练习1/4、jQuery 选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/6、jQuery 的原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00、练习1/5、jQuery常用的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/jQuery的选择器类型.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/7、jQuery选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4、正式课第四周/4、20170610正式课第四天/8、jQuery中常用的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
