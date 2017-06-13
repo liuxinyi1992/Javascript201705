@@ -51,6 +51,8 @@ for(var i=0;i<oLis.length;i++){
 }
 // 鼠标划入让轮播停止，并且让左右切换按钮显示出来
 outer.onmousemove = function () {
+    // console.log(1)
+    // debugger
     left.style.display = "block";
     right.style.display = "block";
     clearInterval(timer);
