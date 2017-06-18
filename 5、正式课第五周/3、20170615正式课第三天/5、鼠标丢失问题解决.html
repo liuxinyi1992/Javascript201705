@@ -98,7 +98,7 @@
     }
     function up(e) {
         if(this.releaseCapture){
-            this.releaseCapture();
+            this.releaseCapture();// 解除绑定
             this.onmousemove = null;
             this.onmouseup = null;
         }else{
