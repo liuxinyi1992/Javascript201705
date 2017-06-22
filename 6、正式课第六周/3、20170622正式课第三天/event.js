@@ -4,7 +4,6 @@
 function on(curEle,evenType,evenFn){
     if(/^self/.test(evenType)){
         if(!curEle["self"+evenType]){
-            // 把方法放进当前元素对象的"self"+evenType属性
             curEle["self"+evenType] = []
         };
         var ary = curEle["self"+evenType];
@@ -20,11 +19,11 @@ function on(curEle,evenType,evenFn){
         return;
     }
     //curEle["myBind"+evenType] 新增自定义属性
-    if(!curEle["myBind"+evenType]){
-        curEle["myBind"+evenType] = [];
+            if(!curEle["myBind"+evenType]){
+                curEle["myBind"+evenType] = [];
                 // 这个地方的代码执行一次，针对于一个事件行为（click、mouseover）
-        curEle.attachEvent("on"+evenType,function () {
-            run.call(curEle);
+                curEle.attachEvent("on"+evenType,function () {
+                    run.call(curEle);
         });
     }
     var ary = curEle["myBind"+evenType];

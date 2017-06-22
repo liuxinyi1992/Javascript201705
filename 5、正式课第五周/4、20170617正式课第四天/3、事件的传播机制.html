@@ -63,11 +63,12 @@
         console.log("inner","捕获")
     },true)
     center.addEventListener("click",function () {
-        console.log("center","捕获")
-    },true)
-    center.addEventListener("click",function () {
         console.log("center","冒泡")
     },false);
+    center.addEventListener("click",function () {
+        console.log("center","捕获")
+    },true)
+
 
 </script>
 </body>
