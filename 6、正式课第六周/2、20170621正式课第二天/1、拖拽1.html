@@ -69,8 +69,8 @@
             on(document,"mousemove",this.MOVE);
             on(document,"mouseup",this.UP);
         }
-        window.clearTimeout(this.flytimer);
-        window.clearTimeout(this.droptimer);
+//        window.clearTimeout(this.flytimer);
+//        window.clearTimeout(this.droptimer);
         this.speed = null;
         this.dropSpeed = null;
     };
@@ -134,7 +134,6 @@
         if(this.flag < 2){
             this.droptimer=window.setTimeout(handThis(this,drop),18)
         }
-
     }
     function up() {
         this.style.zIndex = 0;
