@@ -83,16 +83,20 @@
 //        }
 //    }
 //    obj.fn()
-    var obj = {};
-    obj.fn = function () {
-
-        (()=>{
-            console.log(this) // obj
-        })()
-    }
-    obj.fn();
-
-
+//    var obj = {};
+//    obj.fn = function () {
+//
+//        (()=>{
+//            console.log(this) // obj
+//        })()
+//    }
+//    obj.fn();
+function sum() {
+    setTimeout(()=>{
+        console.log(this)
+    },1000)
+}
+    sum();
 
 </script>
 </body>
