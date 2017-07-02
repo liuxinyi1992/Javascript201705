@@ -13,17 +13,17 @@
 <input type="text" id="test1">
 
 <script type="text/javascript">
-    var test = document.getElementById("test1");
+//    var test = document.getElementById("test1");
     //  localStorage  : 本地存储
     // setItem : 往localStorage存储属性和属性值
     // getItem : 获取localStorage 这个里面某个属性的值
     // removeItem :获取localStorage中的属性
-    localStorage.setItem("username","zhufeng");
-   //本地存储
-    localStorage.setItem("password","123");
-    var username = localStorage.getItem("username");
-    console.log(username)
-    localStorage.removeItem("password");
+//    localStorage.setItem("username","zhufeng");
+//   //本地存储
+//    localStorage.setItem("password","123");
+//    var username = localStorage.getItem("username");
+//    console.log(username)
+//    localStorage.removeItem("password");
     // cookie :把信息存储到客户端的浏览器中，（服务器也是可以获取coolkie）
     // session :  把信息存储到服务器上（ 服务器存储）
 
@@ -52,8 +52,13 @@
     // transform ： translate (平移) rotate（旋转） skew(倾斜)  scale(缩放)
     // animation  ：
     //@keyframe // : 自定义动画
-
-
+var ary = []
+for(let i=0;i<10;i++){
+    ary[i] = function () {
+        console.log(i)
+    }
+};
+ary[6]()  // 谷歌下输出 6  ie输出10
 
 
 
