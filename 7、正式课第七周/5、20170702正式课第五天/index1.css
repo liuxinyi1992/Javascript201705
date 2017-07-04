@@ -16,3 +16,11 @@
   -o-transform: scale(2);
   transform: scale(2);
 }
+.box .gray {
+  color: #eee;
+  background: #000000;
+}
+nav ul .gray {
+  color: #eee !important;
+  background: #000000 !important;
+}
