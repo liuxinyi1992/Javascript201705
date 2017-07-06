@@ -66,13 +66,16 @@
         loop : true, // 无缝衔接的滑动
         effect : "slide", // 横向滑动
         //direction: "vertical",// 纵向滑动
-        autoplay : 2000,// 自动轮播
+        autoplay : 2000,/// 自动轮播
         autoplayDisableOnInteraction: false,
         //当用户操作swiper之后，是否禁止autoplay
         // 如果设置为false,用户操作swiper之后自动切换不停止，每次都会重新启动autoplay// 操作： 触碰 拖动
         pagination : ".swiper-pagination",
         lazyLoading : true, // 让真正的图片显示
-        lazyLoadingPrevNext : true
+        lazyLoadingPrevNext : true,
+        onTransitionEnd: function (swiper) {
+            console.log(swiper.slides) // 7
+        }
     })
 
 
