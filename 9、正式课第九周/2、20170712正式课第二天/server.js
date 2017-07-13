@@ -26,7 +26,7 @@ var server = http.createServer(function (request,response) {
     }
 });
 // 监听当前的服务
-server.listen(83,function () {
+server.listen(80,function () {
     //  80: 端口号
     // 回调函数执行 ： 当服务创建成功，并且端口号也监听成功之后执行这个回调函数
     console.log("server is success");
